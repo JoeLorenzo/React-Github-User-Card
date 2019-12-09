@@ -10,7 +10,10 @@ class App extends Component {
     // set some initial/default state values
     this.state = {
       username: '',
-      avatar: ''
+      avatar_url: '',
+      followers:"",
+      following: "",
+      public_repos: ""
     }
   }
 
